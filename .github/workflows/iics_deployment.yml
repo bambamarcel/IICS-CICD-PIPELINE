@@ -72,7 +72,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: mbamba210/IICS
+          repository: bambamarcel/IICS
           ref: UAT
           token: ${{ secrets.GH_TOKEN }}
           path: IICS
