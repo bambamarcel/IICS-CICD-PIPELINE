@@ -20,8 +20,8 @@ env:
   IICS_LOGIN_URL: https://dm-em.informaticacloud.com
   IICS_POD_URL: https://emw1.dm-em.informaticacloud.com/saas
  
-  IICS_USERNAME: ${{ secrets.IICS_USERNAME }}
-  IICS_PASSWORD: ${{ secrets.IICS_PASSWORD }}
+  IICS_USERNAME: ${{ secrets.DEV_IICS_USERNAME }}
+  IICS_PASSWORD: ${{ secrets.DEV_IICS_PASSWORD }}
 
   UAT_IICS_USERNAME: ${{ secrets.UAT_IICS_USERNAME }}
   UAT_IICS_PASSWORD: ${{ secrets.UAT_IICS_PASSWORD }}
