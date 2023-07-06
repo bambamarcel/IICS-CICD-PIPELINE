@@ -15,8 +15,8 @@ from testing_functions import test_mtt
 
 UAT_COMMIT_HASH = os.environ['UAT_COMMIT_HASH']
 
-LOGIN_URL = os.environ['IICS_LOGIN_URL']
-URL = os.environ['IICS_POD_URL']
+LOGIN_URL = os.environ['DEV_IICS_LOGIN_URL']
+URL = os.environ['DEV_IICS_POD_URL']
 
 UAT_IICS_USERNAME = os.environ['UAT_IICS_USERNAME']
 UAT_IICS_PASSWORD = os.environ['UAT_IICS_PASSWORD']
